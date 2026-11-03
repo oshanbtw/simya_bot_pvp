@@ -1,0 +1,37 @@
+# .NET build and publish outputs
+**/bin/
+**/obj/
+artifacts/
+publish/
+TestResults/
+*.nupkg
+*.snupkg
+
+# Local calibration, runtime logs and diagnostics
+ayarlar.json
+ayarlar.*.json
+*.log
+ocr-deneme.json
+*.dmp
+
+# IDE and user-specific settings
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+*.DotSettings.user
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+
+# OS and editor temporary files
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.temp
+*.swp
+*~
